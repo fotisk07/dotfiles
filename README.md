@@ -6,7 +6,9 @@ under `~/.config/`: they are file-level symlinks into this repository.
 ## Packages
 
 - `hypr`: Hyprland user configuration, monitor layout, and night light
-- `alacritty`, `ghostty`, `kitty`: terminal preferences and keyboard bindings
+- `ghostty`: terminal preferences and keyboard bindings
+
+Alacritty and Kitty configs remain ordinary files outside this repository.
 
 Generated Omarchy theme files, caches, backups, and credentials are not managed.
 Bash, tmux, Neovim, and the Omarchy bar are not included yet.
@@ -31,8 +33,8 @@ Install GNU Stow, clone this repo to `~/dotfiles`, then:
 
 ```bash
 cd ~/dotfiles
-stow --target="$HOME" --no-folding --simulate hypr alacritty ghostty kitty
-stow --target="$HOME" --no-folding hypr alacritty ghostty kitty
+stow --target="$HOME" --no-folding --simulate hypr ghostty
+stow --target="$HOME" --no-folding hypr ghostty
 ```
 
 Existing regular config files cause conflicts. Back them up and move them out of
@@ -60,7 +62,7 @@ To remove managed links without deleting the repository:
 
 ```bash
 cd ~/dotfiles
-stow --target="$HOME" --no-folding --delete hypr alacritty ghostty kitty
+stow --target="$HOME" --no-folding --delete hypr ghostty
 ```
 
 This removes the live config paths; restore ordinary copies if you are retiring
