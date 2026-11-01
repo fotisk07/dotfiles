@@ -1,0 +1,13 @@
+# Backups and editor artifacts
+*.bak
+*.bak.*
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Never commit credentials
+.env
+.env.*
+*.pem
+*.key
