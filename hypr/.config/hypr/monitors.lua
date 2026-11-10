@@ -8,9 +8,9 @@ hl.env("GDK_SCALE", tostring(omarchy_gdk_scale))
 hl.monitor({ output = "", mode = "preferred", position = "auto", scale = omarchy_monitor_scale })
 
 -- External monitor on the left; laptop display on the right.
--- At 1.25 scale, the external monitor is 1536 logical pixels wide.
-hl.monitor({ output = "DP-2", mode = "1920x1080@60", position = "0x0", scale = 1.25 })
-hl.monitor({ output = "eDP-1", mode = "1920x1200@59.95", position = "1536x0", scale = 1.25 })
+-- At 1x scale, the external monitor is 1920 logical pixels wide.
+hl.monitor({ output = "DP-2", mode = "1920x1080@60", position = "0x0", scale = 1 })
+hl.monitor({ output = "eDP-1", mode = "1920x1200@59.95", position = "1920x0", scale = 1.25 })
 
 -- Portrait/rotated secondary monitor (transform: 1 = 90°, 3 = 270°).
 -- hl.monitor({ output = "DP-4", mode = "preferred", position = "auto", scale = 1, transform = 1 })
