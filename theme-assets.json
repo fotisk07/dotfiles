@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "wallpaper_size": "2560x1600",
+  "preview_size": "960x600",
+  "themes": {
+    "willow": {
+      "artist": "Claude Monet",
+      "title": "The Water-Lily Pond",
+      "collection": "National Gallery, London",
+      "source_record": "https://commons.wikimedia.org/wiki/File:Claude_Monet,_The_Water-Lily_Pond_(National_Gallery,_London).jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Claude_Monet%2C_The_Water-Lily_Pond_%28National_Gallery%2C_London%29.jpg",
+      "source_credit_note": "Commons credits the National Gallery online collection and also lists earlier GalleriX/unknown sources. This is a Commons-hosted reproduction, not a direct museum download.",
+      "license_recorded": "Public domain on Commons; consult the source record before redistributing",
+      "original_width": 6000,
+      "original_height": 5821,
+      "sha256": "e7c401f199b74ce7b0f736363190ea4743f9b2d6027b362b53ee13795f2e06e4",
+      "crop_gravity": "center"
+    },
+    "lagoon": {
+      "artist": "Canaletto",
+      "title": "The Entrance to the Grand Canal, Venice",
+      "collection": "Museum of Fine Arts, Houston",
+      "source_record": "https://commons.wikimedia.org/wiki/File:Canaletto_-_The_Entrance_to_the_Grand_Canal,_Venice_-_Google_Art_Project.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Canaletto_-_The_Entrance_to_the_Grand_Canal%2C_Venice_-_Google_Art_Project.jpg",
+      "source_credit_note": "Google Art Project reproduction, hosted on Wikimedia Commons.",
+      "license_recorded": "Public domain on Commons; consult the source record before redistributing",
+      "original_width": 8392,
+      "original_height": 5724,
+      "sha256": "e0ce95f0a3bbc5b96afd7660580d876cb23f3c5891fa5e15bf35d13f1f85efeb",
+      "crop_gravity": "center"
+    },
+    "sylvan": {
+      "artist": "Jean-Honoré Fragonard",
+      "title": "The Progress of Love: The Lover Crowned",
+      "collection": "The Frick Collection",
+      "source_record": "https://commons.wikimedia.org/wiki/File:The_Progress_of_Love_-_The_Lover_Crowned_-_Fragonard_1771-72.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/The_Progress_of_Love_-_The_Lover_Crowned_-_Fragonard_1771-72.jpg",
+      "source_credit_note": "Commons source record credits the Frick Collection.",
+      "license_recorded": "Public domain on Commons; consult the source record before redistributing",
+      "original_width": 2822,
+      "original_height": 3729,
+      "sha256": "212ab5cdabbdd745ba6fd798d1755dc78e1a9c1b7d8813cc87a28df96b9ab4b6",
+      "crop_gravity": "south"
+    }
+  }
+}

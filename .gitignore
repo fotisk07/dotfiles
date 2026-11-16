@@ -11,3 +11,7 @@
 .env.*
 *.pem
 *.key
+
+# Recreated by scripts/theme-wallpapers.py; keep large artwork out of Git.
+/omarchy/.config/omarchy/themes/*/backgrounds
+/omarchy/.config/omarchy/themes/*/preview.png
